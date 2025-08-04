@@ -233,11 +233,12 @@ body {
 
 /* -----------------------------------------------------------Hero-секція----------------------------------------------------------- */
 
-/* .hero-title {
+.hero-title {
   font-size: 28px;
   margin-bottom: 30px;
-  text-shadow: var(--text-shadow);
-} */
+  /* text-shadow: var(--text-shadow); */
+  color: var(--background-link);
+}
 .hero-list {
   display: flex;
   flex-direction: column;
@@ -1162,11 +1163,11 @@ body {
     font-size: 20px;
     padding: 20px 60px;
   }
-  /* Hero
+  /* Hero */
   .hero-title {
     font-size: 50px;
     margin-bottom: 30px;
-  } */
+  } 
 
   .hero-item-title {
     font-size: 20px;
